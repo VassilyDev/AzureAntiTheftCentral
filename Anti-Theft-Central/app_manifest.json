@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "Name": "Anti-Theft-Central",
+  "ComponentId": "99760b53-6985-4e55-abab-a4d57ef814e4",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "Central" ],
+  "Capabilities": {
+    "AllowedConnections": [ "****.azure-devices.net", "global.azure-devices-provisioning.net" ],
+    "Gpio": [ 8, 10, 0, 2, 26, 28 ],
+    "SpiMaster": [ "ISU1" ],
+    "WifiConfig": false
+  },
+  "ApplicationType": "Default"
+}
